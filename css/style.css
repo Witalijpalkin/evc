@@ -620,23 +620,20 @@ input {
   border: 1px solid #CACACA;
   border-radius: 32px;
 }
-
-.about-us__item-image-top {
-  background-position: center;
-  min-width: 34%;
-  height: 100%;
-  background-size: 65%;
-  background-image: url(../img/about-us-1.svg);
-  background-repeat: no-repeat;
+.about-us__item-descr {
+  margin-right: 6%;
+  width: 60%;
 }
-
-.about-us__item-image-bottom {
-  background-position: center;
-  min-width: 34%;
-  height: 100%;
-  background-size: 65%;
-  background-image: url(../img/about-us-2.svg);
-  background-repeat: no-repeat;
+.about-us__svg {
+  width: 28%;
+  margin-right: auto;
+  padding-left: 50px;
+}
+.about-us__svg320 {
+  display: none;
+}
+.about-us .text {
+  max-width: 90%;
 }
 
 .about-us__one {
@@ -686,10 +683,6 @@ input {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 32px;
   z-index: -1;
-}
-
-.about-us__item-descr {
-  margin-right: 10%;
 }
 
 /*how*/

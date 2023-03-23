@@ -179,35 +179,17 @@
     min-height: 640px;
   }
 
-  .about-us__content-left-descr {
-    width: 64%;
-  }
-
   .about-us__item {
-    padding: calc(6% - 4px) 10px calc(5% - 2px);
+    padding: 7% 10px 7%;
   }
 
-  .about-us__item-descr {
-    margin-right: 16%;
-    min-height: 170px;
-  }
-
-  .about-us__item-image-top {
-    min-width: calc(34% - 2px);
-    background-position-x: 65px;
-    height: 197px;
-    background-size: 63%;
-  }
-
-  .about-us__item-image-bottom {
-    min-width: calc(34% - 2px);
-    background-position-x: 65px;
-    height: 197px;
-    background-size: 63%;
+  .about-us__svg {
+    padding-left: 66px;
+    width: calc(28% + 4px);
   }
 
   .how {
-    padding-top: 48px;
+    padding-top: 45px;
     padding-bottom: 40px;
   }
 
@@ -249,7 +231,7 @@
 
 
   .faq {
-    padding-bottom: 80px;
+    padding-bottom: 79px;
     padding-top: 39px;
   }
 
@@ -319,7 +301,7 @@
   }
 
   .about-us {
-    padding-bottom: 31px;
+    padding-bottom: 36px;
   }
 
   .about-us__one {
@@ -350,30 +332,20 @@
   .about-us__btn {
     margin-right: 40px;
   }
-
+  .about-us__svg {
+    padding-left: 40px;
+    width: calc(22% + 7px);
+  }
   .about-us__item {
-    padding: 32px 0;
+    padding: 34px 0;
     border-radius: 25px;
   }
-
+  .about-us .text {
+    max-width: 95%;
+  }
   .about-us__item-descr {
-    margin: 0;
     width: 70%;
-    padding: 2px 0;
-  }
-
-  .about-us__item-image-top {
-    min-width: calc(25% + 2px);
-    background-position: 68% 49%;
-    height: 135px;
-    background-size: 68%;
-  }
-
-  .about-us__item-image-bottom {
-    min-width: calc(25% + 2px);
-    background-position: 68% 49%;
-    height: 135px;
-    background-size: 68%;
+    margin-right: calc(4% + 4px);
   }
 
   .how {
@@ -613,6 +585,7 @@
 
   .about-us {
     padding-top: 30px;
+    padding-bottom: 32px;
   }
 
   .about-us__title {
@@ -685,23 +658,19 @@
     width: 100%;
     padding: 0;
   }
-
-  .about-us__item-image-top {
-    margin-top: 0;
-    min-width: 92px;
-    height: 60px;
-    background-position: left top;
-    background-image: url(/img/about320-top.svg);
-
+  .about-us__svg {
+    display: none;
   }
-
-  .about-us__item-image-bottom {
-    margin-top: 0;
-    min-width: 92px;
-    height: 61px;
-    background-position: left top;
-    background-image: url(/img/about320-bot.svg);
+  .about-us__svg320 {
+    display: block;
+    padding-left: 0;
+    width: calc(20% + 7px);
+    margin-bottom: 11px;
   }
+  .about-us .text {
+    max-width: 100%;
+}
+
 
   .how {
     padding-top: 44px;
