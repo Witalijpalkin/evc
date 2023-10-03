@@ -52,9 +52,7 @@ input {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('fonts/MontserratSemiBold.eot');
   src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
-    url('../fonts/MontserratSemiBold.woff2') format('woff2'),
     url('../fonts/MontserratSemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
@@ -63,9 +61,7 @@ input {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/MontserratBold.eot');
   src: local('Montserrat Bold'), local('Montserrat-Bold'),
-    url('../fonts/MontserratBold.woff2') format('woff2'),
     url('../fonts/MontserratBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
@@ -74,9 +70,7 @@ input {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/Montserratregular.eot');
   src: local('Montserrat Regular'), local('Montserrat-Regular'),
-    url('../fonts/MontserratRegular.woff2') format('woff2'),
     url('../fonts/MontserratRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -85,9 +79,7 @@ input {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/MontserratMedium.eot');
   src: local('Montserrat Medium'), local('Montserrat-Medium'),
-    url('../fonts/MontserratMedium.woff2') format('woff2'),
     url('../fonts/MontserratMedium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
@@ -96,9 +88,7 @@ input {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/MontserratExtraBold.eot');
   src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
-    url('../fonts/MontserratExtraBold.woff2') format('woff2'),
     url('../fonts/MontserratExtraBold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
@@ -500,23 +490,10 @@ input {
 
 
 .swiper-img {
-  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
-}
-
-.swiper-img1024 {
-  display: none;
-}
-
-.swiper-img768 {
-  display: none;
-}
-
-.swiper-img320 {
-  display: none;
 }
 
 .swiper-pagination-bullet-active {
@@ -642,7 +619,7 @@ input {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/Rectangle\ 2.png);
+  background-image: url(../img/Rectangle\ 2.webp);
 }
 
 .about-us__content-left {
@@ -759,19 +736,19 @@ input {
 }
 
 .how-image-1 {
-  background-image: url(../img/how-step1.jpg);
+  background-image: url(../img/how-step1.webp);
 }
 
 .how-image-2 {
-  background-image: url(../img/how-step2.jpg);
+  background-image: url(../img/how-step2.webp);
 }
 
 .how-image-3 {
-  background-image: url(../img/how-step3.jpg);
+  background-image: url(../img/how-step3.webp);
 }
 
 .how-image-4 {
-  background-image: url(../img/how-step4.jpg);
+  background-image: url(../img/how-step4.webp);
 }
 
 .how__text {

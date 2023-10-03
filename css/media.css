@@ -124,15 +124,6 @@
     border-radius: 16px;
   }
 
-  .swiper-img {
-    display: none;
-  }
-
-  .swiper-img1024 {
-    display: block;
-    height: 100%;
-  }
-
   .hero-content {
     max-width: 95%;
     padding: calc(18% - 7px) calc(8% + 3px);
@@ -214,19 +205,19 @@
   }
 
   .how-image-1 {
-    background-image: url(../img/how1024-1.jpg);
+    background-image: url(../img/how1024-1.webp);
   }
 
   .how-image-2 {
-    background-image: url(../img/how1024-2.jpg);
+    background-image: url(../img/how1024-2.webp);
   }
 
   .how-image-3 {
-    background-image: url(../img/how1024-3.png);
+    background-image: url(../img/how1024-3.webp);
   }
 
   .how-image-4 {
-    background-image: url(../img/how1024-4.png);
+    background-image: url(../img/how1024-4.webp);
   }
 
 
@@ -288,16 +279,6 @@
 
   .hero-content__descr {
     margin-bottom: calc(9% + 7px);
-  }
-
-  .swiper-img1024 {
-    display: none;
-  }
-
-  .swiper-img768 {
-    display: block;
-    height: 100%;
-    width: 100%;
   }
 
   .about-us {
@@ -386,19 +367,19 @@
   }
 
   .how-image-1 {
-    background-image: url(../img/how-768-1.jpg);
+    background-image: url(../img/how-768-1.webp);
   }
 
   .how-image-2 {
-    background-image: url(../img/how768-2.jpg);
+    background-image: url(../img/how768-2.webp);
   }
 
   .how-image-3 {
-    background-image: url(../img/how768-3.jpg);
+    background-image: url(../img/how768-3.webp);
   }
 
   .how-image-4 {
-    background-image: url(../img/how768-4.jpg);
+    background-image: url(../img/how768-4.webp);
   }
 
   .faq {
@@ -529,18 +510,6 @@
   .hero {
     padding-top: 15px;
     padding-bottom: 28px;
-  }
-
-  .swiper-img768 {
-    display: none;
-  }
-
-  .swiper-img320 {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-position: center;
   }
 
   .hero-content {
@@ -699,19 +668,19 @@
   }
 
   .how-image-1 {
-    background-image: url(../img/how-step1.jpg);
+    background-image: url(../img/how-step1.webp);
   }
 
   .how-image-2 {
-    background-image: url(../img/how-step2.jpg);
+    background-image: url(../img/how-step2.webp);
   }
 
   .how-image-3 {
-    background-image: url(../img/how-step3.jpg);
+    background-image: url(../img/how-step3.webp);
   }
 
   .how-image-4 {
-    background-image: url(../img/how-step4.jpg);
+    background-image: url(../img/how-step4.webp);
   }
 
   .how__subtitle {

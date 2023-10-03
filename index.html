@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVCLID</title>
+
+  <link rel="preload" href="fonts/MontserratSemiBold.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratBold.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratRegular.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratMedium.woff2" as="font">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
   <link rel="stylesheet" href="libs/accordion.min.css">
@@ -15,7 +22,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
     rel="stylesheet">
-  <title>EVCLID</title>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script defer src="libs/accordion.min.js"></script>
+  <script defer src="js/mail.js"></script>
 
 </head>
 
@@ -28,7 +38,7 @@
         <span class="burger__line"></span>
       </button>
       <a class="logo header__logo flex">
-        <img src="img/Logo.jpg" alt="logo Evclid">
+        <img src="img/Logo.webp" alt="logo Evclid">
       </a>
       <nav class="header-nav flex">
         <ul class="list-reset header-nav__list flex">
@@ -81,23 +91,41 @@
           <div class="swiper hero-swiper" aria-hidden="true">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="img/hero1.png" alt="hero-image1" class="swiper-img">
-                <img src="img/hero1024-1.jpg" alt="hero-image1" class="swiper-img1024">
-                <img src="img/hero768-1.jpg" alt="hero-image1" class="swiper-img768">
-                <img src="img/hero320-1.jpg" alt="hero-image1" class="swiper-img320">
+                <picture>
+                  <source media="(max-width: 576px)" srcset="img/hero320-1.webp">
+                  <source media="(max-width: 992px)" srcset="img/hero768-1.webp">
+                  <source media="(max-width: 1200px)" srcset="img/hero1024-1.webp">
+                  <img src="img/hero1.webp" alt="hero-image1" class="swiper-img">
+                </picture>
               </div>
               <div class="swiper-slide">
-                <img src="img/hero2.png" alt="hero-image2" class="swiper-img">
-                <img src="img/hero1024-2.jpg" alt="hero-image1" class="swiper-img1024">
-                <img src="img/hero768-2.jpg" alt="hero-image1" class="swiper-img768">
-                <img src="img/hero320-2.jpg" alt="hero-image1" class="swiper-img320">
+                <picture>
+                  <source media="(max-width: 576px)" srcset="img/hero320-2.webp">
+                  <source media="(max-width: 992px)" srcset="img/hero768-2.webp">
+                  <source media="(max-width: 1200px)" srcset="img/hero1024-2.webp">
+                  <img src="img/hero2.webp" alt="hero-image2" class="swiper-img">
+                </picture>
               </div>
               <div class="swiper-slide">
-                <img src="img/hero3.png" alt="hero-image3" class="swiper-img">
-                <img src="img/hero1024-3.jpg" alt="hero-image1" class="swiper-img1024">
-                <img src="img/hero768-3.jpg" alt="hero-image1" class="swiper-img768">
-                <img src="img/hero320-3.jpg" alt="hero-image1" class="swiper-img320">
+                <picture>
+                  <source media="(max-width: 576px)" srcset="img/hero320-3.webp">
+                  <source media="(max-width: 992px)" srcset="img/hero768-3.webp">
+                  <source media="(max-width: 1200px)" srcset="img/hero1024-3.webp">
+                  <img src="img/hero3.webp" alt="hero-image3" class="swiper-img">
+                </picture>
               </div>
+              <!--<div class="swiper-slide">
+                <img  srcset="img/hero320-2.webp 576w,
+                              img/hero768-2.webp 992w,
+                              img/hero1024-2.webp 1200w,
+                              img/hero2.webp 1201w"
+                      sizes="(max-width: 576px) 290px,
+                              (max-width: 992px) 668px,
+                              (max-width: 1200px) 924px,
+                              1770px"
+                      src="img/hero2.webp"
+                      alt="hero-image2" class="swiper-img">
+              </div>-->
             </div>
             <div class="swiper-pagination"></div>
           </div>
@@ -575,9 +603,5 @@
       </div>
     </footer>
   </main>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="libs/accordion.min.js"></script>
-  <script src="js/mail.js"></script>
 </body>
-
 </html>
